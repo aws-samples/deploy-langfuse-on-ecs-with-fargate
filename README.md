@@ -155,6 +155,8 @@ Then we can see the trace details as follows:
     * [Langfuse Self-Hosting Guide (Docker)](https://langfuse.com/docs/deployment/self-host)
     * [Langfuse Configuring Environment Variables](https://langfuse.com/docs/deployment/self-host#configuring-environment-variables)
     * [Tracing for Langchain (Python & JS/TS)](https://langfuse.com/docs/integrations/langchain/tracing)
+    * [Langfuse Python SDK (Low-level)](https://langfuse.com/docs/sdk/python/low-level-sdk)
+ * [Langfuse Cookbook](https://github.com/langfuse/langfuse-docs/tree/main/cookbook)
  * [(GitHub) Langfuse](https://github.com/langfuse/langfuse) - 🪢 Open source LLM engineering platform: Observability, metrics, evals, prompt management, playground, datasets. Integrates with LlamaIndex, Langchain, OpenAI SDK, LiteLLM, and more.
  * [Langfuse ECR/ECS Deployment CDK TypeScript](https://github.com/AI4Organization/langfuse-ecr-ecs-deployment-cdk) - Deploy Langfuse to ECR and ECS with Fargate and AWS CDK TypeScript.
 
