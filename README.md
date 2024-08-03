@@ -146,11 +146,11 @@ Next, open the **Langfuse URL** in your browser to create a new project for trac
 Open the `tracing_for_langchain` notebook in the `examples` folder and run it. (See [here](./examples/tracing_for_langchain.ipynb) for more information)
 
 You will the see the list of traces as follows:
-![Traces](./assets/06-traces.png)
+![Traces](./assets/05-traces.png)
 
 You will also see the details of the selected trace as follows:
 
-![Trace-detail](./assets/05-trace-detail.png)
+![Trace-detail](./assets/06-trace-detail.png)
 
 ## References
 
