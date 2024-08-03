@@ -138,7 +138,7 @@ Next, open the **Langfuse URL** in your browser to create a new project for trac
     ![Singup](./assets/02-sign-up.png)
 2. Create a New Project
     ![New-Project](./assets/03-new-project.png)
-3. Create New API credentials in the Project Settings
+3. Create New API Credentials in the Project Settings
     ![API-Keys](./assets/04-create-api-keys.png)
 
 ### Log Your First LLM Call to Langfuse
