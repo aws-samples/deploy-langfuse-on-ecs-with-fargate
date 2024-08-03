@@ -118,34 +118,37 @@ Delete the CloudFormation stack by running the below command.
 
 Enjoy!
 
-## Example
+## Tracing for your LLM Application with Langfuse
 
-We can find the **langfuse URL** with the following command:
+After deploying all CDK stacks, you can find the **Langfuse URL** using the following command:
 
-```
+```bash
 aws cloudformation describe-stacks --stack-name LangFuseECSAlbFargateServiceStack | \
   jq -r '.Stacks[0].Outputs | map(select(.OutputKey == "LoadBalancerDNS")) | .[0].OutputValue'
 ```
 
-Then, open the **langfuse URL** in your browser.
+Next, open the **Langfuse URL** in your browser to create a new project for tracking your LLM application with Langfuse.
 
 ### Create new project in Langfuse
 
-1. Create Langfuse account
+1. Create a Langfuse Account
 
     ![Login](./assets/01-langfuse-main-page.png)
 
     ![Singup](./assets/02-sign-up.png)
-2. Create a new project
+2. Create a New Project
     ![New-Project](./assets/03-new-project.png)
-3. Create new API credentials in the project settings
+3. Create New API credentials in the Project Settings
     ![API-Keys](./assets/04-create-api-keys.png)
 
-### Log your first LLM call to Langfuse
+### Log Your First LLM Call to Langfuse
 
 Open the `tracing_for_langchain` notebook in the `examples` folder and run it. (See [here](./examples/tracing_for_langchain.ipynb) for more information)
 
-Then we can see the trace details as follows:
+You will the see the list of traces as follows:
+![Traces](./assets/06-traces.png)
+
+You will also see the details of the selected trace as follows:
 
 ![Trace-detail](./assets/05-trace-detail.png)
 
