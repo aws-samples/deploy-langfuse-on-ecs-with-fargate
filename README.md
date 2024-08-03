@@ -1,6 +1,8 @@
 
 # Hosting Langfuse on Amazon ECS with Fargate using CDK Python
 
+![lanfuse-on-aws-ecs-fargate-arch](./langfuse-on-aws-ecs-fargate-arch.svg)
+
 This repository contains the AWS CDK Python code for deploying the [Langfuse](https://langfuse.com/) application using Amazon Elastic Container Registry (ECR) and Amazon Elastic Container Service (ECS).
 
 Langfuse is an open-source LLM engineering platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications.
