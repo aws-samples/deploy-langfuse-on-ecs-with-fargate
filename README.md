@@ -129,7 +129,7 @@ aws cloudformation describe-stacks --stack-name LangFuseECSAlbFargateServiceStac
 
 Next, open the **Langfuse URL** in your browser to create a new project for tracking your LLM application with Langfuse.
 
-### Create new project in Langfuse
+### Create a New Project in Langfuse
 
 1. Create a Langfuse Account
 
