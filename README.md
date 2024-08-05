@@ -143,7 +143,7 @@ Next, open the **Langfuse URL** in your browser to create a new project for trac
 
 ### Log Your First LLM Call to Langfuse
 
-Open the `tracing_for_langchain` notebook in the `examples` folder and run it. (See [here](./examples/tracing_for_langchain.ipynb) for more information)
+Open the `tracing_for_langchain_bedrock` notebook in the `examples` folder and run it. (See [here](./examples/tracing_for_langchain_bedrock.ipynb) for more information)
 
 You will the see the list of traces as follows:
 ![Traces](./assets/05-traces.png)
