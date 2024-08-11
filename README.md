@@ -154,6 +154,7 @@ You will also see the details of the selected trace as follows:
 
 ## References
 
+ * [(AWS Korea Tech Blog) Hosting Langfuse on Amazon ECS with Fargate using AWS CDK Python (2024-08-09)](https://aws.amazon.com/ko/blogs/tech/hosting-langfuse-with-aws-cdk-python-using-amazon-ecs-and-aws-fargate/)
  * [Langfuse Official Documents](https://langfuse.com/docs) - Langfuse is an open-source LLM engineering platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications.
     * [Langfuse Self-Hosting Guide (Docker)](https://langfuse.com/docs/deployment/self-host)
     * [Langfuse Configuring Environment Variables](https://langfuse.com/docs/deployment/self-host#configuring-environment-variables)
