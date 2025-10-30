@@ -82,13 +82,6 @@ For example,
   ],
   "ecs_cluster_name": "langfuse",
   "langfuse_worker_desired_count": 1,
-  "langfuse_worker_env": {
-    "NODE_ENV": "production",
-    "SALT": "salt (generate by running 'openssl rand -base64 32')",
-    "ENCRYPTION_KEY": "encryption key (generate by running 'openssl rand -hex 32')",
-    "TELEMETRY_ENABLED": "true",
-    "LANGFUSE_ENABLE_EXPERIMENTAL_FEATURES": "true"
-  },
   "langfuse_web_env": {
     "NODE_ENV": "production",
     "NEXTAUTH_SECRET": "secret (generate by running 'openssl rand -base64 32')",
@@ -102,7 +95,14 @@ For example,
     "LANGFUSE_READ_FROM_POSTGRES_ONLY": "false",
     "LANGFUSE_READ_FROM_CLICKHOUSE_ONLY": "true",
     "LANGFUSE_RETURN_FROM_CLICKHOUSE": "true"
-  }
+  },
+  "langfuse_worker_env": {
+    "NODE_ENV": "production",
+    "SALT": "<SAME AS FOR WEB CONTAINER ENVIRONEMT ABOVE>",
+    "ENCRYPTION_KEY": "<SAME AS FOR WEB CONTAINER ENVIRONEMT ABOVE>",
+    "TELEMETRY_ENABLED": "true",
+    "LANGFUSE_ENABLE_EXPERIMENTAL_FEATURES": "true"
+  },
 }
 ```
 
